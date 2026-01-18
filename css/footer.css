@@ -1,0 +1,19 @@
+/* Footer */
+footer {
+    background: var(--secondary-color);
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.footer-copy {
+    color: var(--text-light);
+    font-size: 14px;
+    font-family: var(--font-primary);
+}
+
+.footer-copy span {
+    color: var(--primary-color);
+    font-weight: 600;
+}
