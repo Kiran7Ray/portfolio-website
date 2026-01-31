@@ -70,3 +70,21 @@
   transform: rotate(360deg);
   color: var(--primary-color);
 }
+
+.hero-social-icons {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.hero-social-icons a {
+  font-size: 24px;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.hero-social-icons a:hover {
+  color: var(--primary-color);
+  transform: translateY(-3px);
+}
