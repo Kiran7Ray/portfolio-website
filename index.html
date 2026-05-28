@@ -209,7 +209,11 @@
         <span class="section-heading">get in touch</span>
         <h2 class="section-subheading">contact</h2>
 
-        <form action="" id="contactForm" class="contact-form">
+        <form
+          id="contactForm"
+          class="contact-form"
+          onsubmit="submitForm(event)"
+        >
           <input
             type="text"
             placeholder="Name"
@@ -263,5 +267,12 @@
       </footer>
     </main>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+      (function () {
+        emailjs.init("_ZVUlJ5dJEb8lpzJ4");
+      })();
+    </script>
   </body>
 </html>
