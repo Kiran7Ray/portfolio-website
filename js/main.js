@@ -26,12 +26,12 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.classList.toggle("sidebar-toggled");
 
       // Toggle Icon
-      if (this.classList.contains("fa-bars")) {
-        this.classList.remove("fa-bars");
-        this.classList.add("fa-xmark");
+      if (hamburger.classList.contains("fa-bars")) {
+        hamburger.classList.remove("fa-bars");
+        hamburger.classList.add("fa-xmark");
       } else {
-        this.classList.remove("fa-xmark");
-        this.classList.add("fa-bars");
+        hamburger.classList.remove("fa-xmark");
+        hamburger.classList.add("fa-bars");
       }
     });
   }

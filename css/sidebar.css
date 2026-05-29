@@ -169,3 +169,12 @@ body.sidebar-toggled .sidebar-content {
     transition: transform 0.5s ease-in-out;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .hamburger {
+    position: absolute;
+  }
+  .hamburger.hamburger-active {
+    position: fixed;
+  }
+}

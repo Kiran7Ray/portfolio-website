@@ -96,3 +96,23 @@
   color: var(--primary-color);
   transform: translateY(-3px);
 }
+
+@media screen and (max-width: 767px) {
+  #hero {
+    background-image: none;
+    padding: 0 20px;
+  }
+
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 35px;
+  }
+
+  .hero-social-icons {
+    margin-left: 0;
+  }
+}
